@@ -1,0 +1,124 @@
+@font-face {
+    font-family: 'iran_sans_bold';
+    src: url('../Fonts/iran_sans_bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'iran_sans_light';
+    src: url('../Fonts/iran_sans_light.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'iran_sans_medi';
+    src: url('../Fonts/iran_sans_medi.woff') format('woff');
+}
+*{
+    font-family:iran_sans_light;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(to left,#e7f8ff 20%,#f5f5f7);
+    position: relative;
+    overflow: hidden;
+}
+.logo{
+    height: 60px;
+    width: auto;
+    position: absolute;
+    top: 3%;
+    left: 3%;
+    font-size: 35px;
+    color: #005539;
+}
+.header{
+    position: absolute;
+    top: 4%;
+    right: 3%;
+}
+.header i{
+    font-size: 30px;
+    color: #005539;
+    margin: 0 20px;
+    cursor: pointer;
+}
+.mainPage{
+    height: 1050px;
+    width: 950px;
+    border-radius: 50%;
+    border: 50px solid #005539;
+    position: absolute;
+    bottom: -600px;
+    left: calc(50%  - 410px);
+}
+.mainPage .circle{
+    height: 750px;
+    width: 700px;
+    border-radius: 50%;
+    border: 100px solid #ec2473;
+    position: absolute;
+    left: 80px;
+    bottom: 100px;
+    z-index: 1;
+}
+.mainPage img{
+    height: 700px;
+    width: 660px;
+    position: absolute;
+    bottom: 500px;
+    margin-left: 100px;
+    z-index:2;
+    filter: drop-shadow(2px 2px 1px #00000050);
+}
+.content{
+    height: auto;
+    width: auto;
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    z-index: 3;
+}
+.content h2{
+    font-size: 50px;
+    color: #ec2473;
+    text-shadow: 2px 2px 1px #00000050;
+}
+.content h3{
+    font-size: 30px;
+    color: #005539;
+}
+.content button{
+    height: 50px;
+    width: 150px;
+    border: none;
+    outline: none;
+    margin: 15px 0;
+    background: #005539;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.icons{
+    margin-left: 50px;
+}
+.icons i{
+    cursor: pointer;
+    height: 2rem;
+    width: 2rem;
+    line-height: 2rem;
+    text-align: center;
+    font-size: 1rem;
+    border-radius: 50%;
+    background: #005539;
+    color: #fff;
+   margin-top: 550px;
+   margin-left: 10px;
+}
+.icons i:hover{
+    background: #ec2473;
+    color: #fff;
+}
